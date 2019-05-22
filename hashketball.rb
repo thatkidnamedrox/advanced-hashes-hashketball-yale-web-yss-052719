@@ -226,5 +226,6 @@ def winning_team
 
     end
   end
-  player_name
+
+  home_points > away_points ? teams[0] : teams[1]
 end
