@@ -258,5 +258,6 @@ def most_points_scored
       end
     end
   end
+
   player_with_longest_name == player_name
 end
