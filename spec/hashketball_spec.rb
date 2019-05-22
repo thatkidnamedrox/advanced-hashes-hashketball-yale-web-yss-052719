@@ -274,7 +274,7 @@ describe 'bonus' do
 
   end
 
-
+end
 
 # describe 'super bonus' do
 
@@ -286,4 +286,4 @@ describe 'bonus' do
 
 #   end
 
-end
+#end
