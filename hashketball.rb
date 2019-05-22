@@ -246,7 +246,7 @@ def player_with_longest_name
   player_name
 end
 
-def most_points_scored
+def long_name_steals_a_ton
   teams = game_hash.keys
   most_steals = -1
   player_name = ""
