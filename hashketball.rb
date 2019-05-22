@@ -222,10 +222,8 @@ def winning_team
   away_points = 0
   teams.each do |team|
     game_hash[team][:players].each do |name, stats|
-      if most_points < game_hash[team][:players][name][:points]
-        most_points = game_hash[team][:players][name][:points]
-        player_name = name
-      end
+      team == :home ? home_points += game_hash[team][:players][name][:points] : away_points += game_hash[team][:players][name][:points]
+      
     end
   end
   player_name
