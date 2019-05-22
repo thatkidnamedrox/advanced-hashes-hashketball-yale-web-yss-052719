@@ -244,7 +244,7 @@ describe 'hashketball' do
 
   end
 
-end
+# end
 
 # If you'd like to work on the bonus, uncomment these tests.
 
@@ -287,3 +287,5 @@ describe 'bonus' do
 #   end
 
 # end
+
+end
